@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.test{
+  padding-top: 4%;
+}
+.fafa{
+  font-size: 70px;
+}
+.css-10hburv-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  display: block;
+}
+.css-8u39c-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.css-z2eky3-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-weight: 400;
+  font-size: 15px !important;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  margin-bottom: 16px;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  font-size: 3.5rem !important;
+  fill: #000!important;
+}
+.css-ivnu1y-MuiPaper-root-MuiAppBar-root {
+  background-color: #d0ddff !important ;
+}
